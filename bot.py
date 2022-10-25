@@ -18,7 +18,7 @@ mdisk_api = 'jNgyWyCG2KK4tvh5RVFX'
 #footer
 footer = ''' '''
 
-black = ["Is Channel Ko Jarur Join Kare 🙈", 
+black = ["👇👇", "🇩ᴇsɪ 🇼‌ebserie🇸‌🇪‌🇽‌™ 🔞", "𝗕𝗮𝗰𝗸𝘂𝗽 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 :-" , "JOIN NOW 😍","Is Channel Ko Jarur Join Kare 🙈", 
 "Backup Channel 🙈", "🇲 🇺 🇸 🇹  🇼 🇦 🇹 🇨 🇭‌‌", "━━━━━━━━━━━━━━━━━━━━", "--------------------------------------------------------------","⚔️━━━━━━━━━━━━━━━━━⚔️", "Search @ Backup_villa", "🔞Join For Adult Videos 18+🔞","@vmlinks", "💢 Join Our Backup Channel 👇👇", " ▬▬▬▬▬▬▬▬☆☆☆☆▬▬▬▬▬▬▬▬▬", "👍𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝"," None","https://www.instagram.com/haq.sebakchodi/", "𝗙𝗼𝗹𝗹𝗼𝘄 𝗼𝘂𝗿 𝗶𝗻𝘀𝘁𝗮 𝗽𝗮𝗴𝗲👇", " 🙆‍♀ Join Our Backup:- @AllPrivateLinkx", "All More Desi Videos:-","JOIN SPECIAL COLLECTION 👇👇","Special collection 🔞🔞🔞💦💦💦", "DESI MASTI 🔞💦💦💦"," 📌 𝐒𝐡𝐚𝐫𝐞 𝐀𝐧𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 📌", "Our all channels👉@Getnewxxx_Backup", "Desi💏 -", "Foreign 💏-", "🔥𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🔥", " ━━━━━━━━━━━━━━━━━", "join backup channel must", "Indian Channels🔞", " English Channel 🔞", "All Channels Link🔞", " IMO - CHANNEL 👇👇", "----------------------------------------", "New Indian 18+ 👇👇", " 🇧‌🇦‌🇨‌🇰‌🇺‌🇵‌⚠️:-", "SHARE OUR CHANNEL👇", "⚔️━━━━━━━━━━━━━━━━━⚔️", " Search @ Backup_villa ", " 🔴 Join Our All Other Channels 🔴", "🔞Join For Adult Videos 18+🔞", "●╾⁃⁃╼╾⁃⁃╼╾⁃⁃╼╾ ⁃⁃╼╾⁃⁃╼╾⁃⁃╼●", " 📥  𝐉𝐎𝐈𝐍 𝐔𝐒 :– @ViralHouse", "●----------------------------------------------------●", " 👉", "😍𝗩𝗶𝗿@𝗹 💯 𝗩𝗶𝗱€𝗼𝘀😈👇👇"]
 
 
@@ -101,6 +101,8 @@ async def hello1(event):
             # print("changed link : " , shareLink)
             caption = re.sub(link , shareLink , caption)
             # print(caption)
+            if(shareLink == "https://mdisk.me/convertor/16x9/kkIv73"):
+                return
             sleep(0.2)
         caption = caption + "\n"
         if media:
@@ -172,6 +174,8 @@ async def hello2(event):
             # print("changed link : " , shareLink)
             caption = re.sub(link , shareLink , caption)
             # print(caption)
+            if(shareLink == "https://mdisk.me/convertor/16x9/kkIv73"):
+                return
             sleep(0.2)
         caption = caption + "\n"
         if media:
@@ -376,6 +380,8 @@ async def hello5(event):
             # print("changed link : " , shareLink)
             caption = re.sub(link , shareLink , caption)
             # print(caption)
+            if(shareLink == "https://mdisk.me/convertor/16x9/kkIv73"):
+                return
             sleep(0.2)
         caption = caption + "\n" + footer
         if media:
@@ -442,6 +448,8 @@ async def hello6(event):
             # print("changed link : " , shareLink)
             caption = re.sub(link , shareLink , caption)
             # print(caption)
+            if(shareLink == "https://mdisk.me/convertor/16x9/kkIv73"):
+                return
             sleep(0.2)
         caption = caption + "\n" + footer
         if media:
